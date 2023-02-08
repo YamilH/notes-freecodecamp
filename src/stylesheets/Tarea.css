@@ -12,8 +12,18 @@
   cursor: pointer;
 }
 
+.tarea-contenedor:nth-child(3n + 1) {
+  background-color: #e9d099;
+}
+.tarea-contenedor:nth-child(3n + 2) {
+  background-color: #e0bb6a;
+}
+.tarea-contenedor:nth-child(3n + 3) {
+  background-color: rgb(230, 181, 76);
+}
+
 .tarea-contenedor.completada {
-  background-color: #e08649;
+  background-color: #9ad43d;
   text-decoration: line-through;
 }
 
@@ -29,5 +39,5 @@
 .tarea-icono {
   width: 25px;
   height: 25px;
-  /* margin: 5px; */
+  margin: 5px;
 }
